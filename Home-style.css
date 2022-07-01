@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    *background-color: linear-gradient( #0F0C29, #302B63);
+    background-image: url(https://i.pinimg.com/originals/7d/07/a2/7d07a255678962d30d8717dcf5dbd266.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    color: linear-gradient( #0F0C29, #302B63);
+    padding: 0 8%;
+    margin-top: 30px;
+    height: 600px;
+}
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient( #ffd987, #ffa92f);
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo
+{
+    color: #ff8c2f;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #16c2a3;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+    background:#ff8c2f;
+    color:#2b1055;
+}
+audio
+{
+width: 100%;
+margin-top: 10px;
+}
+.audio-control
+{
+    width: 500px;
+    margin: auto;
+    position: relative;
+}
+
+
+.next
+{
+    text-decoration: none;
+    background: #1c0522;
+    z-index: 1000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.next:hover
+{
+    background:#fff;
+    color:#2b1055;
+}
+.next
+{
+    background-color:#ff8c2f;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.previous
+{
+    text-decoration: none;
+    background: #da5302;
+    z-index: 1000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.previous:hover
+{
+    background:#fff;
+    color:#2b1055;
+}
+.previous
+{
+    background-color:#ff8c2f;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
